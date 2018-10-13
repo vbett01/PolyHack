@@ -1,4 +1,4 @@
-package com.example.vincentbett.inventoryapp;
+package com.example.vincentbett.inventoryapp.dataobjects;
 
 public class Product {
 
