@@ -3,7 +3,7 @@ package com.example.vincentbett.inventoryapp.dataobjects;
 public class Product {
 
     private String name;
-    private String productID;
+    private String product_id;
     private double price;
 
     private Product() {
@@ -11,24 +11,24 @@ public class Product {
     }
 
     Product(String id){
-        this.productID = id;
+        this.product_id = id;
     }
 
     Product(String id, double new_price){
-        this.productID = id;
+        this.product_id = id;
         this.price = new_price;
 
     }
 
     Product(String id, double new_price, String new_name){
-        this.productID = id;
+        this.product_id = id;
         this.price = new_price;
         this.name = new_name;
     }
 
 
     public String get_id(){
-        return productID;
+        return product_id;
     }
     /*
      * Name getter
